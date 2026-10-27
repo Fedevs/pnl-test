@@ -1,0 +1,30 @@
+# Secrets (API keys)
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/*executed*.ipynb
+
+# Smoke-test runs (python src/run_eval.py --limit N); the full results/ ARE versioned
+results/*_smoke*/
+
+# Excel / LibreOffice lock files created while editing the review sheets
+~$*
+.~lock.*#
+
+# OS / editors
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
